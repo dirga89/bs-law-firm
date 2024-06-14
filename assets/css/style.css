@@ -868,10 +868,17 @@ p {
     transition: all 0.3s ease-out 0s; }
     .single_lawyer .lawyer_content .lawyer_name a:hover {
       color: #DE3660; }
+    @media (max-width: 767px) {
+      .single_lawyer .lawyer_content .lawyer_name a {
+        font-size: 24px; } }
   .single_lawyer .lawyer_content p {
     font-size: 14px;
     margin-top: 5px;
     font-weight: 300; }
+    @media (max-width: 767px) {
+      .single_lawyer .lawyer_content p {
+        font-size: 18px; } }
+  
 
 .single_lawyer:hover .lawyer_image::before {
   opacity: 1;
